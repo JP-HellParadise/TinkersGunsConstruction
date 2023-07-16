@@ -21,7 +21,7 @@ import java.util.List;
 public class AmmoBullet extends ProjectileCore {
     protected final List<PartMaterialType> toolBuildComponents;
     public AmmoBullet() {
-        super(PartMaterialType.arrowShaft(ModuleTools.partBulletcartridge),
+        super(PartMaterialType.arrowShaft(ModuleTools.partBulletCartridge),
               PartMaterialType.extra(ModuleTools.partPropellant),
               PartMaterialType.arrowHead(ModuleTools.partWarhead));
         addCategory(Category.NO_MELEE, Category.PROJECTILE);
