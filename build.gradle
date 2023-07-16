@@ -4,9 +4,7 @@ buildscript {
         maven { url = "https://files.minecraftforge.net/maven" }
     }
     dependencies {
-        classpath("com.anatawa12.forge:ForgeGradle:2.3-1.0.+") {
-            changing = true
-        }
+        classpath("com.anatawa12.forge:ForgeGradle:2.3-1.0.7")
     }
 }
 apply plugin: 'net.minecraftforge.gradle.forge'
