@@ -26,7 +26,7 @@ public class TGCRegister {
 	private static final String			CLIENT_PROXY	= "reirokusanami.proxy.ClientProxy";
 	private static final String			SERVER_PROXY	= "reirokusanami.proxy.UsualProxy";
 
-	@SidedProxy(clientSide = CLIENT_PROXY)
+	@SidedProxy(clientSide = CLIENT_PROXY, serverSide = SERVER_PROXY)
 	public static UsualProxy	proxy;
 
 	/**
